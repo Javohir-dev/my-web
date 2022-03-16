@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    outline: none;
+    text-decoration: none;
+}
+body {
+    background-image: url("../img/mac.jpg");
+    background-position: center top;
+    background-size: cover;
+    font-family: 'Roboto';
+}
+.all-box {
+    margin: 1.8em;
+    padding: 2em;
+    border-radius: 3em;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff6e;
+    box-shadow: 5px 5px 100px #ffffff81;
+}
+.box {
+    margin:.5em 1em;
+    width: 15em;
+    color: #000;
+    border-radius: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+}
+.box > i {
+    color: #000;
+} 
+.box:hover .bi-instagram {
+    color: #dd2a7b;
+}
+.box:hover .bi-telegram {
+    color: #0f94ec;
+}
+.box:hover .bi-linkedin {
+    color: #002fff;
+}
+.box:hover .bi-facebook {
+    color: #1b74e4;
+}
+.box:hover .bi-github {
+    color: #834180;
+}
+.box:hover .bi-youtube {
+    color: #ff0000;
+}
+.box:hover .bi-envelope-check-fill{
+    color: #fbbc05;
+}
+.box:hover {
+    background: #ffffff3d;
+    box-shadow: 10px 10px 20px #333;
+}
+.box h3 {
+    text-align: center;
+}
+.box > .icon {
+    font-size: 5em;
+    margin: .3em;
+}
+.link {
+    margin: 1em;
+}
+.link > .copy {
+    margin: 0.5em;
+    color: #000;
+    font-size: 20px;
+}
+.link > .click {
+    padding: 0 1em;
+    border-radius: 5px;
+    margin: 0.5em;
+    color: #000;
+    font-size: 20px;
+    transition: 0.2s;
+}
+.link > .click:hover {
+    color: blue;
+}
