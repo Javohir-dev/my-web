@@ -9,6 +9,9 @@ a {
     outline: none;
     text-decoration: none;
 }
+a:hover {
+    text-decoration: underline;
+}
 body {
     background-image: url("../img/mac.jpg");
     background-position: center top;
@@ -22,7 +25,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     background-color: #ffffff6e;
     box-shadow: 5px 5px 100px #ffffff81;
 }
@@ -60,6 +63,9 @@ body {
 }
 .box:hover .bi-envelope-check-fill{
     color: #fbbc05;
+}
+.box:hover .bi-link-45deg{
+    color: #22499e;
 }
 .box:hover {
     background: #ffffff3d;
