@@ -14,7 +14,7 @@ a:hover {
 }
 body {
     background-image: url("../img/mac.jpg");
-    background-position: center top;
+    background-position: center center;
     background-size: cover;
     font-family: 'Roboto';
 }
@@ -68,8 +68,9 @@ body {
     color: #22499e;
 }
 .box:hover {
-    background: #ffffff3d;
-    box-shadow: 10px 10px 20px #333;
+    /* background: #ffffff3d; */
+    backdrop-filter: blur(10px);
+    box-shadow: 5px 5px 20px #cccccc94;
 }
 .box h3 {
     text-align: center;
