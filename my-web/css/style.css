@@ -13,7 +13,7 @@ a:hover {
     text-decoration: underline;
 }
 body {
-    background-image: url("../img/mac.jpg");
+    background-image: url(https://searchthisweb.com/wallpaper/mac-os-x_5120x2880_tcdmh.jpg);
     background-position: center center;
     background-size: cover;
     font-family: 'Roboto';
@@ -26,8 +26,8 @@ body {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
-    background-color: #ffffff6e;
-    box-shadow: 5px 5px 100px #ffffff81;
+    /* background-color: #ffffff60; */
+    /* box-shadow: 5px 5px 100px #ffffff81; */
 }
 .box {
     margin:.5em 1em;
